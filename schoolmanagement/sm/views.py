@@ -147,3 +147,4 @@ class SubjectDeleteView(View):
         item = Subject.objects.get(id=pk)
         item.delete()
         return redirect('subjectlist')
+
